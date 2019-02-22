@@ -1,0 +1,31 @@
+section.sec3{
+  background: url('../img/banner4.png') no-repeat 50% 50%;
+  background-size: cover;
+}
+section.sec3 article {
+  text-align: center;
+  border-top:2px solid #353535;
+  padding:60px 0;
+}
+section.sec3 img {
+}
+section.sec3 article .textwrap {
+  text-align: left;
+  display: inline-block;
+  width:40%;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 1600px) {
+  section.sec3 article {width:90%;}
+}
+
+@media screen and (max-width: 1024px) {
+  section.sec3 article .textwrap {width:60%;}
+}
+
+@media screen and (max-width: 512px) {
+  section.sec3 img {width:100%;}
+  section.sec3 article .textwrap {width:95%;  padding-bottom:80px;}
+}
